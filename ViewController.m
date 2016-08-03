@@ -36,8 +36,8 @@
     
     
     [PHPhotoLibrary saveVideo:videoURL albumName:@"my album" completion:^(PHAsset * asset) {
-        DLog(@"success");
-        DLog(@"asset%lu",(unsigned long)asset.pixelWidth);
+        NSLog(@"success");
+        NSLog(@"asset%lu",(unsigned long)asset.pixelWidth);
         
         
     }];
